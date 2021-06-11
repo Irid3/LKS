@@ -93,63 +93,6 @@ dan outputnya akan seperti ini:
 
 """
 
-######  akhir dari dump cipher text ke ascii code
 
-
-####    percobaan pertama
-
-"""
-
-for i in range(count):
-    print(chr(ord(key[i % 5])))
-
-for c in arr:
-    for g in range(count):
-            k = random.choice(word)
-            # print(ord(k) ^ ord(key[g % 5]))
-            # print(k)
-            if ord(k) ^ ord(key[g % 5]) == c:
-                flag += k[:2]
-print(flag)
-print(len(word))
-for i in range(count):
-    print(chr(ord(key[i % 5])))
-print(len(word))
-for i in range(255):
-    if ord("2") ^ i == 1:
-        print("ascii text nya",i)
-        print("keynya ",chr(i))
-index = 0
-for i in range():
-    print(i)
-    for o in :
-        if ord(o) ^ ord(key[index % 5]) == arr[index]:
-            print("i nya sekarang",i)
-            flag += o
-            index += 1
-print(flag)
-
-"""
-
-#####   percobaan pertama
-
-#####   percobaan kedua
-
-"""
-
-for o in word:
-    # print(ord(key[i]))
-    # print(y)
-    p = random.choice(word)
-    # print(ord(p) ^ ord(key[i]) == y)
-    if ord(o) ^ ord(key[i]) == y:
-        print("y nya",y)
-        print(o)
-print(flag)
-print(len(arr))
-
-"""
-
-#####   percobaan kedua
 
 
